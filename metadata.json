@@ -1,0 +1,5 @@
+{
+  "name": "BiliCalc",
+  "description": "A newborn hyperbilirubinemia assessment tool based on AAP guidelines, featuring a Bhutani nomogram and phototherapy thresholds.",
+  "requestFramePermissions": []
+}
