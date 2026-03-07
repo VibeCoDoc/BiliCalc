@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# BiliCalc - Deployment Instructions
 
-# Run and deploy your AI Studio app
+## Option 1: GitHub Actions (Recommended)
 
-This contains everything you need to run your app locally.
+1.  Go to your GitHub repository **Settings**.
+2.  Click on **Pages** in the left sidebar.
+3.  Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4.  The workflow will automatically build and deploy your site.
 
-View your app in AI Studio: https://ai.studio/apps/6b1bef69-7b8e-4ace-a78b-1a9f8a855e15
+## Option 2: Manual Deployment (gh-pages)
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Run `npm run deploy` locally.
+2.  Go to your GitHub repository **Settings**.
+3.  Click on **Pages** in the left sidebar.
+4.  Under **Build and deployment** > **Source**, select **Deploy from a branch**.
+5.  Select the `gh-pages` branch and click **Save**.
